@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,400i&display=swap&subset=latin-ext');
+
+.menu {
+  position: absolute;
+  min-width: 360px;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #fff;
+  background-color: rgba(0, 0, 0, .64);
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, .16);
+  text-transform: capitalize;
+}
+
+.menu.align-left {
+  left: 30;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.menu.align-top-left {
+  left: 30;
+  top: 20%;
+  transform: translate(0, -20%);
+}
+
+.menu.align-top {
+  left: 30;
+  top: 20%;
+  transform: translate(0, -20%);
+}
+
+.menu.align-top-right {
+  right: 30;
+  top: 20%;
+  transform: translate(0, -20%);
+}
+
+.menu.align-right {
+  left: 30;
+  top: 20%;
+  transform: translate(0, -20%);
+}
+
+.menu.align-bottom-right {
+  left: 30;
+  top: 20%;
+  transform: translate(0, -20%);
+}
+
+.menu.align-bottom {
+  left: 30;
+  top: 20%;
+  transform: translate(0, -20%);
+}
+
+.menu.align-bottom-left {
+  left: 30;
+  top: 20%;
+  transform: translate(0, -20%);
+}
+
+.menu.align-center {
+  left: 30;
+  top: 20%;
+  transform: translate(0, -20%);
+}
+
+.menu .head {
+  padding: .75rem 1rem;
+  text-align: center;
+  color: rgba(255, 255, 255, .80);
+  background-color: rgba(0, 0, 0, .80);
+}
+
+.head__title {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.head__description {
+  font-size: .875rem;
+  font-style: italic;
+  font-weight: 300;
+  color: rgba(255, 255, 255, .50);
+}
+
+.menu .menu-items {
+  max-height: 600px;
+  overflow-y: hidden;
+}
+
+.menu .menu-items .menu-item {
+  display: flex;
+  align-items: center;
+  height: 2.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 1rem;
+  color: rgba(255, 255, 255, .80);
+}
+
+.menu .menu-items .menu-item.selected {
+  color: rgba(0, 0, 0, .80);
+  background: rgb(255, 255, 255);
+  background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(149, 165, 166, 1) 100%);
+}
+
+.menu__icon {
+  position: relative;
+  height: 2.5rem;
+  background-color: rgba(0, 0, 0, .80);
+  background-image: url("data:image/svg+xml,%3csvg xmlns='https://www.w3.org/2000/svg' viewBox='0 0 4 5'%3e%3cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: .75rem 1rem;
+ }
