@@ -1,4 +1,4 @@
-## QB Core Evidence v2 | Gutso
+## QBCore | Core Evidence v2 | Gutso
 
 core_evidence ESX to QBCore Framework converted by Gutso
 
