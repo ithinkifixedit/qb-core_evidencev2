@@ -2,6 +2,8 @@
 
 core_evidence ESX to QBCore Framework converted by Gutso
 
+Original script preview https://streamable.com/2t179c
+
 # Installation 
 
 - First of all, please follow the instructions, you have to add those make this script work.
