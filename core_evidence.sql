@@ -1,7 +1,3 @@
-INSERT INTO `items` (`name`, `label`, `weight`) VALUES
-	('uvlight', 'UV Flashlight', 1)
-;
-
 CREATE TABLE `evidence_storage` (
   `id` int(11) NOT NULL,
   `data` longtext NOT NULL
